@@ -113,7 +113,7 @@ class _DateFormatFieldState extends State<DateFormatField> {
       return InputDecoration(
         suffixIcon: IconButton(
           onPressed: pickDate,
-          icon: const Icon(Icons.calendar_month),
+          icon: SvgPicture.asset('icons/Календарь 1.svg'),
         ),
       );
     }
